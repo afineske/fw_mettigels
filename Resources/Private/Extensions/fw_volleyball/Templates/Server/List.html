@@ -1,0 +1,54 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+<f:section name="main">
+	<f:flashMessages />
+	<div class="table-responsive">
+		<table  class="table table-striped" >
+			<tr>
+				<th>Datum</th>
+				<th>Zeit</th>
+				<th>Team A</th>
+				<th>Team B</th>
+				<f:switch expression="{settings.viewOption}">
+					<f:case value="0">
+						<th>Ort</th>
+						<th>Ergebnis</th>
+					</f:case>
+					<f:case value="1">
+						<th>Ort</th>
+					</f:case>
+					<f:case value="2">
+						<th>Ergebnis</th>
+					</f:case>
+				</f:switch>
+
+			</tr>
+
+			<f:for each="{data.match}" as="match">
+				<f:switch expression="{settings.viewOption}">
+					<f:case value="0">
+						<f:render partial="Server/Match" arguments="{_all}" />
+					</f:case>
+					<f:case value="1">
+						<f:if condition="{f:format.date(date: match.date, format: 'U')} > {f:format.date(date: date_now, format: 'U')}">
+							<f:render partial="Server/Match" arguments="{_all}" />
+						</f:if>
+					</f:case>
+					<f:case value="2">
+						<f:if condition="{f:format.date(date: match.date, format: 'U')} < {f:format.date(date: date_now, format: 'U')}">
+							<f:render partial="Server/Match" arguments="{_all}" />
+						</f:if>
+					</f:case>
+				</f:switch>
+			</f:for>
+			<caption align="bottom">
+				Legende:<br>
+				<strong style="color:#000">Teamname</strong> = Gewinner
+				<f:if condition="{settings.team.id}">
+					, <div style="display:inline-block;height:10px;width: 25px;background-color: #d9edf7" ></div> = Dein Team
+				</f:if>
+			</caption>
+		</table>
+	</div>
+</f:section>
+</html>

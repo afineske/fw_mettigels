@@ -1,0 +1,13 @@
+lib.footerNavigation = HMENU
+lib.footerNavigation {
+    special = directory
+    special.value = {$plugin.tx_fw_mettigels.settings.footerNavPid}
+    1 = TMENU
+    1 {
+        NO = 1
+        NO.allWrap = &nbsp;|&nbsp;&#8211; |*| &nbsp;|&nbsp;&#8211; |*| &nbsp;|&nbsp;
+    }
+
+
+    wrap = <p class="navigation m-0">|</p>
+}

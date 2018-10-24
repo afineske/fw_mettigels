@@ -1,0 +1,94 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+{namespace fw=FiniWeb\FwVolleyball\ViewHelpers}
+<f:layout name="Default" />
+<f:section name="main">
+
+    <f:flashMessages />
+
+    <v:iterator.explode content="{settings.promotionPlaces}" glue="," as="temp1" >
+        <v:variable.set name="upPlaces" value="{temp1}"/>
+    </v:iterator.explode>
+    <v:iterator.explode content="{settings.relegationPlaces}" glue="," as="temp2" >
+        <v:variable.set name="downPlaces" value="{temp2}"/>
+    </v:iterator.explode>
+
+    <div id="{data.matchSeries.id}" class="table-responsive">
+        <f:render partial="TableViews" />
+        <br/>
+        <table  class="table table-bordered ranking" >
+            <tr>
+                <th colspan="2" class="text-center">Platz</th>
+                <th>Team</th>
+                <th class='text-center'><div><span>Spiele</span></div></th>
+                <th class='text-center'><div><span>Siege</span></div></th>
+                <th class='full'><div><span>Niederlagen</span></div></th>
+                <f:for each="{data.ranking.0.resultTypes.matchResult}" as="matchResult">
+                    <th class="text-center med"><div><span>{matchResult.result}</span></div></th>
+                </f:for>
+                <th class='text-center'><div><span>Sätze</span></div></th>
+                <th class='full'><div><span>Satzquotient</span></div></th>
+                <th class='full'><div><span>Ballverhältnis</span></div></th>
+                <th class="full"><div><span>Ballquotient</span></div></th>
+                <th class='text-center'><div><span>Punkte</span></div></th>
+
+            </tr>
+            <f:for each="{data.ranking}" as="ranking">
+                <tr>
+                    <td class="no-right-border text-right">{ranking.place}</td>
+                    <td class="no-left-border text-cnter">
+
+                        <f:if condition="{upPlaces}">
+                            <f:then>
+                                <f:for each="{upPlaces}" as="upPlace">
+                                    <f:if condition="{upPlace} == {ranking.place}">
+                                        <f:then>
+                                            <i class="fas fa-caret-up text-green"></i>
+                                        </f:then>
+                                    </f:if>
+                                </f:for>
+                            </f:then>
+                        </f:if>
+                        <f:if condition="{downPlaces}">
+                            <f:then>
+                                <f:for each="{downPlaces}" as="downPlace">
+                                    <f:if condition="{downPlace} == {ranking.place}">
+                                        <f:then>
+                                            <i class="fas fa-caret-down text-red"></i>
+                                        </f:then>
+                                    </f:if>
+                                </f:for>
+                            </f:then>
+                        </f:if>
+                    </td>
+                    <td class="{f:if(condition:'{settings.team.id} == {ranking.team.id.0}', then: 'info', else: '')}">
+                        {ranking.team.name}
+                    </td>
+                    <td class='text-center'>{ranking.matchesPlayed}</td>
+                    <td class='text-center'>{ranking.wins}</td>
+                    <td class='text-center full'>{ranking.losses}</td>
+                    <f:for each="{ranking.resultTypes.matchResult}" as="matchResult">
+                    <td class="text-center med">{matchResult.count}</td>
+                    </f:for>
+                    <td class='text-center'>{ranking.setPoints}</td>
+                    <td class='text-center full'>{ranking.setQuotient}</td>
+                    <td class='text-center full'>{ranking.ballPoints}</td>
+                    <td class='text-center full'>{ranking.ballQuotient}</td>
+                    <td class='text-center'>{ranking.points}</td>
+
+                </tr>
+            </f:for>
+            <f:if condition="{settings.team.id}">
+                <caption align="bottom">
+                    Legende:<br>
+                    <div style="display:inline-block;height:10px;width: 25px;background-color: #d9edf7" ></div> = Dein Team
+
+                </caption>
+            </f:if>
+        </table>
+        <f:render partial="TableViews" />
+        <div class="clearfix">
+            <p class="pull-right text-muted text-right small">Letzte Aktualisierung: <f:format.date date="{data.matchSeries.resultsUpdated}" format="H:m d.m.Y"/></p>
+        </div>
+
+    </div>
+</f:section>

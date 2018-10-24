@@ -1,0 +1,73 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+	  xmlns:n="http://typo3.org/ns/GeorgRinger/News/ViewHelpers"
+	  data-namespace-typo3-fluid="true">
+	<!--
+		=====================
+			Partials/List/Item-owl-carousel.html
+	-->
+	<div class="col">
+		<div class="card">
+			<f:if condition="{newsItem.mediaPreviews}">
+				<f:then>
+					<n:link newsItem="{newsItem}" settings="{settings}" title="{newsItem.title}">
+						<f:alias map="{mediaElement: newsItem.mediaPreviews.0}">
+							<f:if condition="{mediaElement.originalResource.type} == 2">
+								<f:image class="card-im g-top" cropVariant="carousel"  image="{mediaElement}" title="{mediaElement.originalResource.title}" alt="{mediaElement.originalResource.alternative}" maxWidth="{f:if(condition: settings.media.maxWidth, then: settings.media.maxWidth, else: settings.list.media.image.maxWidth)}" maxHeight="{f:if(condition: settings.media.maxHeight, then: settings.media.maxHeight, else: settings.list.media.image.maxHeight)}"/>
+							</f:if>
+							<f:if condition="{mediaElement.originalResource.type} == 4">
+								<f:render partial="Detail/MediaVideo" arguments="{mediaElement: mediaElement}"/>
+							</f:if>
+							<f:if condition="{mediaElement.originalResource.type} == 5">
+								<f:image class="card-im g-top" cropVariant="carousel"  image="{mediaElement}" title="{mediaElement.originalResource.title}" alt="{mediaElement.originalResource.alternative}" maxWidth="{f:if(condition: settings.media.maxWidth, then: settings.media.maxWidth, else: settings.list.media.image.maxWidth)}" maxHeight="{f:if(condition: settings.media.maxHeight, then: settings.media.maxHeight, else: settings.list.media.image.maxHeight)}"/>
+							</f:if>
+						</f:alias>
+					</n:link>
+				</f:then>
+			</f:if>
+			<div class="card-body clearfix">
+				<h4>
+					<n:link newsItem="{newsItem}" settings="{settings}" title="{newsItem.title}">
+						<span itemprop="headline">{newsItem.title}</span>
+					</n:link>
+				</h4>
+				<div class="news-subtitle">
+					<time itemprop="datePublished" datetime="{f:format.date(date:newsItem.datetime, format:'Y-m-d')}">
+						<f:format.date format="{f:translate(key:'dateFormat')}">{newsItem.datetime}</f:format.date>
+					</time>
+
+					<f:if condition="{newsItem.author}">
+					<span class="news-list-author">
+						- <f:translate key="author" arguments="{0:newsItem.author}"/>
+					</span>
+					</f:if>
+					<div class="float-right">
+						<f:if condition="{newsItem.categories}">
+							<f:for each="{newsItem.categories}" as="category" iteration="iteratorCategories">
+
+								<span class="badge badge-{category.uid}">{category.title}</span>&nbsp;
+							</f:for>
+						</f:if>
+
+					</div>
+				</div>
+				<div class="card-text d-block clearfix">
+					<n:removeMediaTags>
+						<f:if condition="{newsItem.teaser}">
+							<f:then>
+								{newsItem.teaser -> f:format.crop(maxCharacters: '{settings.cropMaxCharacters}', respectWordBoundaries:'1') -> f:format.html()}
+							</f:then>
+							<f:else>
+								{newsItem.bodytext -> f:format.crop(maxCharacters: '{settings.cropMaxCharacters}', respectWordBoundaries:'1') -> f:format.html()}
+							</f:else>
+						</f:if>
+					</n:removeMediaTags>
+				</div>
+				<div class="button d-block">
+					<n:link newsItem="{newsItem}" settings="{settings}" class="btn btn-outline-primary btn-sm more" title="{newsItem.title}">
+						<f:translate key="more-link"/>
+					</n:link>
+				</div>
+			</div>
+		</div>
+	</div>
+</html>

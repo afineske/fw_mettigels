@@ -1,0 +1,84 @@
+tx_news {
+    templateLayouts {
+        100 = Owl Carousel
+    }
+    module {
+            allowedPage = {$plugin.tx_fw_mettigels.settings.newsSysfolderPid}
+        }
+}
+
+tt_content.image.20.caption.1.1 {
+ parseFunc {
+allowTags = br,span, i, em, b
+denyTags = *
+ }
+htmlSpecialChars = 0
+}
+
+
+TCEFORM.tt_content {
+    header_layout {
+      addItems.10 = H1 Section Header
+      addItems.11 = H2 Section Header
+    }
+    frame_class {
+                removeItems = ruler-before, ruler-after, indent, indent-left, indent-right
+                addItems {
+                    cardPrimary = Card Primary (1. Herren)
+                    cardWarning = Card Warning (2. Herren)
+                    cardDanger = Card Danger (3. Herren)
+                }
+            }
+}
+TCEFORM.sys_file_reference.crop.config.cropVariants {
+    default {
+        title = Default
+        selectedRatio = news
+        allowedAspectRatios {
+            NaN {
+                title = Free
+                value = 0.0
+            }
+            21:9 {
+                title = 21:9
+                value = 2.3333333
+            }
+            16:9 {
+                title = 16:9
+                value = 1.7777777
+            }
+            4:3 {
+                title = 4:3
+                value = 1.3333333
+            }
+            3:2 {
+                title = 3:2
+                value = 1.5
+            }
+            1:1 {
+                title = 1:1
+                value = 1
+            }
+        }
+    }
+
+    carousel {
+        title = Carousel News
+        allowedAspectRatios {
+            default {
+                title = 453/220
+                value = 2.0590909091
+            }
+        }
+    }
+    newslist {
+        title = News List
+        allowedAspectRatios {
+            default {
+                title = 1:1
+                value = 1
+            }
+        }
+    }
+}
+RTE.default.preset = mettigels

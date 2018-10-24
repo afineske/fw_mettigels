@@ -1,0 +1,114 @@
+page = PAGE
+page {
+    meta {
+        X-UA-Comatible = IE=edge
+        X-UA-Comatible.httpEquivalent = 1
+        viewport = width=device-width, initial-scale=1, shrink-to-fit=no
+        description.field = description
+        description.ifEmpty = Volleyball im TuS H/M
+        author.field = author
+        author.ifEmpty = TuS H/M Volleyball
+        keywords.field = keywords
+        keywords.ifEmpty = Volleyball, Kiel, TuS H/M, Regionalliga,Verbandsliga,Landesliga
+
+    }
+    shortcutIcon = EXT:fw_mettigels/Resources/Public/Icons/favicon.ico
+    includeCSS {
+        100 = EXT:fw_mettigels/Resources/Public/Css/bootstrap.css
+        110 = EXT:fw_mettigels/Resources/Public/Css/owl.carousel.min.css
+        111 = EXT:fw_mettigels/Resources/Public/Css/owl.theme.default.min.css
+        // 200 = EXT:fw_mettigels/Resources/Public/Css/styles.css
+    }
+    includeJS {
+        100 = https://use.fontawesome.com/releases/v5.0.8/js/all.js
+        100.external = 1
+    }
+    includeJSFooterlibs {
+        100 = EXT:fw_mettigels/Resources/Public/JavaScripts/jquery.min.js
+        100.disableCompression = 1
+    }
+    includeJSFooter {
+        100 = EXT:fw_mettigels/Resources/Public/JavaScripts/popper.min.js
+        100.disableCompression = 1
+        110 = EXT:fw_mettigels/Resources/Public/JavaScripts/bootstrap.min.js
+        110.disableCompression = 1
+        120 = EXT:fw_mettigels/Resources/Public/JavaScripts/owl.carousel.min.js
+        120.disableCompression = 1
+        130 = EXT:fw_mettigels/Resources/Public/JavaScripts/default.js
+    }
+    10 = FLUIDTEMPLATE
+    10 {
+        layoutRootPath = EXT:fw_mettigels/Resources/Private/Layouts/
+        partialRootPath = EXT:fw_mettigels/Resources/Private/Partials/
+        file = EXT:fw_mettigels/Resources/Private/Templates/Default.html
+
+        variables {
+            backendLayout = CASE
+            backendLayout {
+                key.data = pagelayout
+
+                pagets__landingpage = TEXT
+                pagets__landingpage.value = landingpage
+
+                pagets__twocolumn = TEXT
+                pagets__twocolumn.value = twocolumn
+
+                pagets__threecolumns = TEXT
+                pagets__threecolumns.value = threecolumns
+
+                pagets__onecolumn = TEXT
+                pagets__onecolumn.value = onecolumn
+
+                pagets__teamview = TEXT
+                pagets__teamview.value = teamview
+
+                deafult < .pagets__twocolumn
+            }
+            content0 = CONTENT
+            content0 {
+                table = tt_content
+                select.where = colPos=0
+                select.orderBy = sorting
+            }
+            content1 < .content0
+            content1.select.where = colPos=1
+            content1.slide = -1
+            content1.collect = 1
+            content1.collectReverse = 1
+
+            content2 < .content0
+            content2.select.where = colPos=2
+
+            content3 < .content0
+            content3.select.where = colPos=3
+
+            content4 < .content0
+            content4.select.where = colPos=4
+
+            content100 < .content0
+            content100.select.where = colPos=100
+
+            content300 < .content0
+            content300.select.where = colPos=300
+
+            content302 < .content0
+            content302.select.where = colPos=302
+
+            content303 < .content0
+            content303.select.where = colPos=303
+
+            content105 < .content0
+            content105.select.where = colPos=105
+
+            content102 < .content0
+            content102.select.where = colPos=102
+
+            content104 < .content0
+            content104.select.where = colPos=104
+
+
+
+        }
+    }
+}
+lib.parseFunc_RTE.externalBlocks.table.stdWrap.HTMLparser.tags.table.fixAttrib.class.list := addToList(table, table-stripped, table-bordered, table-no-border)

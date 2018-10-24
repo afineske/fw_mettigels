@@ -1,0 +1,39 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "Template f\u00fcr die Mettigels",
+        "emConf": {
+            "category": "templates",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-8.7.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "8.7.0-8.7.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "fw_mettigels",
+        "name": "Mettigels_Template",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "FiniWeb",
+                "email": "afineske@finiweb.de",
+                "name": "Andreas Fineske",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "FiniWeb"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2018-03-12 08:48",
+        "extension_builder_version": "8.7.0",
+        "be_user": " (1)"
+    }
+}

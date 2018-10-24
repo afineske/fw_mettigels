@@ -1,0 +1,114 @@
+lib.mainNav = HMENU
+lib.mainNav {
+    wrap = <ul class="nav"> | </ul>
+
+    1 = TMENU
+    1 {
+        expAll = 1
+
+        NO = 1
+        NO {
+            ATagTitle.field = description // subtitle // title
+            ATagParams = class="nav-link"
+            wrapItemAndSub = <li class="nav-link">|</li>
+            stdWrap.htmlSpecialChars = 1
+        }
+
+        CUR < .NO
+        CUR {
+            wrapItemAndSub = <li class="nav-link active">|</li>
+        }
+
+        ACT < .CUR
+
+        IFSUB = 1
+        IFSUB {
+            ATagTitle.field = description // subtitle // title
+            ATagParams = class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"
+            ATagBeforeWrap = 1
+            wrapItemAndSub = <li class="nav-link dropdown">|</li>
+        }
+
+        ACTIFSUB < .IFSUB
+        ACTIFSUB {
+            wrapItemAndSub = <li class="nav-link dropdown active">|</li>
+        }
+
+        CURIFSUB < .ACTIFSUB
+    }
+
+    2 = TMENU
+    2 {
+
+        wrap = <div class="dropdown-menu">|</div>
+        NO {
+
+            ATagParams = class="dropdown-item"
+        }
+    }
+}
+lib.leftnav = HMENU
+lib.leftnav {
+    special = directory
+    special.value = {$plugin.tx_fw_mettigels.settings.leftNavPid}
+    wrap = <ul class="navbar-nav mr-auto pt-5 pt-md-5 pt-xl-0"> | </ul>
+
+    1 = TMENU
+    1 {
+        expAll = 1
+
+        NO = 1
+        NO {
+            ATagTitle.field = description // subtitle // title
+            ATagParams = class="nav-link"
+            wrapItemAndSub = <li class="nav-link">|</li>
+            stdWrap.htmlSpecialChars = 1
+        }
+
+        CUR < .NO
+        CUR {
+            wrapItemAndSub = <li class="nav-link active">|</li>
+        }
+
+        ACT < .CUR
+
+        IFSUB = 1
+        IFSUB {
+            ATagTitle.field = description // subtitle // title
+            ATagParams = class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"
+            ATagBeforeWrap = 1
+            wrapItemAndSub = <li class="nav-link dropdown">|</li>
+        }
+
+        ACTIFSUB < .IFSUB
+        ACTIFSUB {
+            wrapItemAndSub = <li class="nav-link dropdown active">|</li>
+        }
+
+        CURIFSUB < .ACTIFSUB
+    }
+
+    2 = TMENU
+    2 {
+
+        wrap = <div class="dropdown-menu">|</div>
+        NO = 1
+        NO {
+
+            ATagParams = class="dropdown-item"
+            }
+        CUR < .NO
+        CUR {
+            ATagParams = class="dropdown-item active"
+        }
+
+        ACT < .CUR
+    }
+}
+
+lib.rightnav < .lib.leftnav
+lib.rightnav {
+special = directory
+special.value = {$plugin.tx_fw_mettigels.settings.rightNavPid}
+wrap = <ul class="navbar-nav ml-auto">|</ul>
+}

@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5b57002-15d6-46cc-af11-6b5248540970" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Vendor/bootstrap-4.1.3/scss/_project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Vendor/bootstrap-4.1.3/scss/_project.scss" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="_project.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Resources/Vendor/bootstrap-4.1.3/scss/_project.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="111" selection-start-line="111" selection-end-line="111" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib.contentElement.t3s" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/Modules/lib.contentElement.t3s">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="91" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Private/Extensions/News/Templates/Category/List.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="56" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Private/Layouts/Main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib.navigations.t3s" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/Modules/lib.navigations.t3s">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ima</find>
+      <find>ext_key</find>
+      <find>{$templatename}</find>
+      <find>fw</find>
+      <find>fw_mettigels_t</find>
+      <find>72</find>
+      <find>ettIgels</find>
+      <find>renderw</find>
+      <find>renderwiz</find>
+      <find>add</find>
+      <find>ad</find>
+      <find>footer</find>
+      <find>navbar</find>
+      <find>wrap</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>fw_mettigels</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Configuration/TypoScript/Modules/ext.fw_volleyball.t3s" />
+        <option value="$PROJECT_DIR$/Resources/Private/Extensions/fw_volleyball/Templates/Location/List.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Extensions/fw_volleyball/Partials/Location/Properties.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Extensions/fw_volleyball/Partials/TableViews.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Extensions/fw_volleyball/Templates/Server/LastResults.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Extensions/fw_volleyball/Templates/Location/Show.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Extensions/fw_volleyball/Templates/Server/Ranking.html" />
+        <option value="$PROJECT_DIR$/Resources/Public/Css/styles.css" />
+        <option value="$PROJECT_DIR$/Configuration/TypoScript/Modules/ext.googleMaps.t3s" />
+        <option value="$PROJECT_DIR$/Resources/Private/Extensions/fluid_styled_content/Partials/Media/Type/Image.html" />
+        <option value="$PROJECT_DIR$/ext_emconf.php" />
+        <option value="$PROJECT_DIR$/Resources/Vendor/bootstrap-4.1.3/scss/bootstrap.scss" />
+        <option value="$PROJECT_DIR$/Resources/Vendor/bootstrap-4.1.3/scss/_variables.scss" />
+        <option value="$PROJECT_DIR$/ext_tables.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/ExtensionBuilder.json" />
+        <option value="$PROJECT_DIR$/Configuration/ExtensionBuilder/settings.yaml" />
+        <option value="$PROJECT_DIR$/Resources/Private/Extensions/News/Partials/List/Item-owl-carousel.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Extensions/News/Layouts/Detail.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Extensions/News/Partials/Detail/MediaContainer.html" />
+        <option value="$USER_HOME$/Downloads/news/Resources/Private/Partials/Detail/MediaImage.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Extensions/News/Templates/News/List.html" />
+        <option value="$PROJECT_DIR$/Configuration/TSconfig/BackendLayouts.txt" />
+        <option value="$PROJECT_DIR$/Resources/Private/Extensions/News/Templates/News/Detail.html" />
+        <option value="$PROJECT_DIR$/Configuration/RTE/rte.yml" />
+        <option value="$PROJECT_DIR$/Configuration/RTE/Rte.yml" />
+        <option value="$PROJECT_DIR$/Configuration/RTE/Mettigels.yaml" />
+        <option value="$PROJECT_DIR$/ext_localconf.php" />
+        <option value="$PROJECT_DIR$/../maps2/Classes/Form/Element/ReadOnlyInputTextElement.php" />
+        <option value="$PROJECT_DIR$/../maps2/Classes/Form/Element/InfoWindowCkEditorElement.php" />
+        <option value="$PROJECT_DIR$/../maps2/Configuration/TCA/tx_maps2_domain_model_poicollection.php" />
+        <option value="$PROJECT_DIR$/Resources/Private/Extensions/fluid_styled_content/Layout/Default.html" />
+        <option value="$PROJECT_DIR$/../../../../typo3_src-9.5.0/typo3/sysext/fluid_styled_content/Resources/Private/Partials/Header/All.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Extensions/News/Templates/Category/List.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Extensions/fluid_styled_content/Partials/Header/Header.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Extensions/fluid_styled_content/Layouts/Default.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Extensions/News/Templates/ViewHelpers/Widget/Paginate/Index.html" />
+        <option value="$PROJECT_DIR$/Configuration/TypoScript/Modules/lib.footer.t3s" />
+        <option value="$PROJECT_DIR$/Configuration/TypoScript/Modules/lib.footerNavigation.t3s" />
+        <option value="$PROJECT_DIR$/Configuration/TypoScript/constants.ts" />
+        <option value="$PROJECT_DIR$/Configuration/TSconfig/Page.txt" />
+        <option value="$PROJECT_DIR$/Configuration/TypoScript/Modules/lib.tx_news.t3s" />
+        <option value="$PROJECT_DIR$/Resources/Public/JavaScripts/default.js" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/Default.html" />
+        <option value="$PROJECT_DIR$/Configuration/TypoScript/Modules/100_page.t3s" />
+        <option value="$PROJECT_DIR$/Resources/Private/Extensions/News/Partials/List/Item.html" />
+        <option value="$PROJECT_DIR$/Configuration/TypoScript/Modules/lib.navigations.t3s" />
+        <option value="$PROJECT_DIR$/Resources/Private/Layouts/Main.html" />
+        <option value="$PROJECT_DIR$/Configuration/TypoScript/Modules/lib.contentElement.t3s" />
+        <option value="$PROJECT_DIR$/Resources/Private/Extensions/fluid_styled_content/Templates/MenuSubpages.html" />
+        <option value="$PROJECT_DIR$/Resources/Vendor/bootstrap-4.1.3/scss/_project.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/Resources/Vendor/bootstrap-4.1.3/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../../../typo3_src-9.5.0" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1366" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fw_mettigels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw_mettigels" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fw_mettigels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw_mettigels" type="462c0819:PsiDirectoryNode" />
+              <item name="Configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fw_mettigels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw_mettigels" type="462c0819:PsiDirectoryNode" />
+              <item name="Configuration" type="462c0819:PsiDirectoryNode" />
+              <item name="TypoScript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fw_mettigels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw_mettigels" type="462c0819:PsiDirectoryNode" />
+              <item name="Configuration" type="462c0819:PsiDirectoryNode" />
+              <item name="TypoScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fw_mettigels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw_mettigels" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fw_mettigels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw_mettigels" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Private" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fw_mettigels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw_mettigels" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Private" type="462c0819:PsiDirectoryNode" />
+              <item name="Extensions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fw_mettigels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw_mettigels" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Private" type="462c0819:PsiDirectoryNode" />
+              <item name="Extensions" type="462c0819:PsiDirectoryNode" />
+              <item name="fluid_styled_content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fw_mettigels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw_mettigels" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Private" type="462c0819:PsiDirectoryNode" />
+              <item name="Extensions" type="462c0819:PsiDirectoryNode" />
+              <item name="fluid_styled_content" type="462c0819:PsiDirectoryNode" />
+              <item name="Layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fw_mettigels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw_mettigels" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Private" type="462c0819:PsiDirectoryNode" />
+              <item name="Extensions" type="462c0819:PsiDirectoryNode" />
+              <item name="fluid_styled_content" type="462c0819:PsiDirectoryNode" />
+              <item name="Partials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fw_mettigels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw_mettigels" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Private" type="462c0819:PsiDirectoryNode" />
+              <item name="Extensions" type="462c0819:PsiDirectoryNode" />
+              <item name="fluid_styled_content" type="462c0819:PsiDirectoryNode" />
+              <item name="Partials" type="462c0819:PsiDirectoryNode" />
+              <item name="Media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fw_mettigels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw_mettigels" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Private" type="462c0819:PsiDirectoryNode" />
+              <item name="Extensions" type="462c0819:PsiDirectoryNode" />
+              <item name="fluid_styled_content" type="462c0819:PsiDirectoryNode" />
+              <item name="Templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fw_mettigels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw_mettigels" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Private" type="462c0819:PsiDirectoryNode" />
+              <item name="Extensions" type="462c0819:PsiDirectoryNode" />
+              <item name="News" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fw_mettigels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw_mettigels" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Private" type="462c0819:PsiDirectoryNode" />
+              <item name="Extensions" type="462c0819:PsiDirectoryNode" />
+              <item name="News" type="462c0819:PsiDirectoryNode" />
+              <item name="Partials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fw_mettigels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw_mettigels" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Private" type="462c0819:PsiDirectoryNode" />
+              <item name="Extensions" type="462c0819:PsiDirectoryNode" />
+              <item name="News" type="462c0819:PsiDirectoryNode" />
+              <item name="Partials" type="462c0819:PsiDirectoryNode" />
+              <item name="Category" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fw_mettigels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw_mettigels" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Private" type="462c0819:PsiDirectoryNode" />
+              <item name="Extensions" type="462c0819:PsiDirectoryNode" />
+              <item name="News" type="462c0819:PsiDirectoryNode" />
+              <item name="Templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fw_mettigels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw_mettigels" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Private" type="462c0819:PsiDirectoryNode" />
+              <item name="Extensions" type="462c0819:PsiDirectoryNode" />
+              <item name="News" type="462c0819:PsiDirectoryNode" />
+              <item name="Templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Category" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fw_mettigels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw_mettigels" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Private" type="462c0819:PsiDirectoryNode" />
+              <item name="Layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fw_mettigels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw_mettigels" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Private" type="462c0819:PsiDirectoryNode" />
+              <item name="Templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resources/Private/Extensions/fluid_styled_content/Templates" />
+      <recent name="$PROJECT_DIR$/Resources/Private/Extensions/News/Templates" />
+      <recent name="$PROJECT_DIR$/Resources/Private/Extensions/fluid_styled_content/Partials/Header" />
+      <recent name="$PROJECT_DIR$/../../../../typo3_src-9.5.0/typo3/sysext/fluid_styled_content/Resources/Private/Partials/Header" />
+      <recent name="$PROJECT_DIR$/Resources/Private/Extensions/fluid_styled_content/Layout" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resources/Private/Extensions/fw_volleyball/Partials" />
+      <recent name="$PROJECT_DIR$/Resources/Private/Extensions/fw_volleyball/Partials/Server" />
+      <recent name="$PROJECT_DIR$/Resources/Private/Extensions/fw_volleyball/Templates/Server" />
+      <recent name="$PROJECT_DIR$/Resources/Private/Extensions/fluid_styled_content/Partials/Header" />
+      <recent name="$PROJECT_DIR$/Resources/Private/Extensions/fluid_styled_content/Partials" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5b57002-15d6-46cc-af11-6b5248540970" name="Default" comment="" />
+      <created>1520887838823</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520887838823</updated>
+      <workItem from="1520887840371" duration="14431000" />
+      <workItem from="1521101744635" duration="39681000" />
+      <workItem from="1521453606866" duration="7872000" />
+      <workItem from="1521659352602" duration="792000" />
+      <workItem from="1522313776039" duration="23000" />
+      <workItem from="1538737875592" duration="3615000" />
+      <workItem from="1538759073592" duration="4974000" />
+      <workItem from="1538807383522" duration="17012000" />
+      <workItem from="1539241480186" duration="1596000" />
+      <workItem from="1539330656286" duration="2467000" />
+      <workItem from="1539348565075" duration="20202000" />
+      <workItem from="1539672295149" duration="7000" />
+      <workItem from="1539672306267" duration="77000" />
+      <workItem from="1539673656516" duration="694000" />
+      <workItem from="1540017680397" duration="3367000" />
+      <workItem from="1540043085999" duration="1459000" />
+      <workItem from="1540311421723" duration="35000" />
+    </task>
+    <task id="LOCAL-00001" summary="add Card Colors Danger and Warning">
+      <created>1539420524521</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539420524521</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add Card Colors Danger and Warning">
+      <created>1539509208752</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539509208752</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Bootstrap News Pagination">
+      <created>1539525519836</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539525519836</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Bootstrap News Pagination">
+      <created>1539525671228</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1539525671228</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Bootstrap News Pagination">
+      <created>1539526209075</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539526209075</updated>
+    </task>
+    <task id="LOCAL-00006" summary="js arror">
+      <created>1539526894641</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1539526894641</updated>
+    </task>
+    <task id="LOCAL-00007" summary="disable footer content">
+      <created>1539527272079</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1539527272079</updated>
+    </task>
+    <task id="LOCAL-00008" summary="constants">
+      <created>1539630331762</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1539630331762</updated>
+    </task>
+    <task id="LOCAL-00009" summary="css live fixes">
+      <created>1539630874893</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1539630874893</updated>
+    </task>
+    <task id="LOCAL-00010" summary="typo fix">
+      <created>1539630957456</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1539630957456</updated>
+    </task>
+    <task id="LOCAL-00011" summary="typo fix">
+      <created>1539631048483</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1539631048483</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add slide to content1">
+      <created>1539632893341</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1539632893342</updated>
+    </task>
+    <task id="LOCAL-00013" summary="footernav margin left/right -15px">
+      <created>1539673737647</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1539673737647</updated>
+    </task>
+    <task id="LOCAL-00014" summary="footernav margin left/right -15px">
+      <created>1539673833683</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1539673833683</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix issue #1 and #2&#10;fix navigations in all view points">
+      <created>1540019613488</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1540019613488</updated>
+    </task>
+    <task id="LOCAL-00016" summary="MenuSubPages">
+      <created>1540021452346</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1540021452346</updated>
+    </task>
+    <task id="LOCAL-00017" summary="News firstletter list view">
+      <created>1540043611704</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1540043611704</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="118304000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1366" height="745" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49845678" visible="true" weight="0.26283988" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" sideWeight="0.5015432" side_tool="true" weight="0.24018127" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3287037" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3287037" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add Card Colors Danger and Warning" />
+    <MESSAGE value="Bootstrap News Pagination" />
+    <MESSAGE value="js arror" />
+    <MESSAGE value="disable footer content" />
+    <MESSAGE value="constants" />
+    <MESSAGE value="css live fixes" />
+    <MESSAGE value="typo fix" />
+    <MESSAGE value="add slide to content1" />
+    <MESSAGE value="footernav margin left/right -15px" />
+    <MESSAGE value="fix issue #1 and #2&#10;fix navigations in all view points" />
+    <MESSAGE value="MenuSubPages" />
+    <MESSAGE value="News firstletter list view" />
+    <option name="LAST_COMMIT_MESSAGE" value="News firstletter list view" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Downloads/news/Resources/Private/Partials/Detail/MediaVideo.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Extensions/News/Partials/Detail/MediaContainer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="7" selection-start-line="7" selection-start-column="57" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Extensions/News/Templates/News/Detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="136" column="63" selection-start-line="136" selection-start-column="63" selection-end-line="136" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Extensions/fluid_styled_content/Partials/Media/Type/Image.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ext_localconf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="78" selection-start-line="2" selection-start-column="78" selection-end-line="2" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../maps2/Classes/Form/Element/InfoWindowCkEditorElement.php" />
+    <entry file="file://$PROJECT_DIR$/../maps2/Classes/Form/Element/ReadOnlyInputTextElement.php" />
+    <entry file="file://$PROJECT_DIR$/../maps2/Configuration/FlexForms/CityMap.xml" />
+    <entry file="file://$PROJECT_DIR$/../maps2/Configuration/TCA/Overrides/tx_maps2_domain_model_poicollection.php" />
+    <entry file="file://$PROJECT_DIR$/../maps2/Configuration/TCA/Overrides/tt_content.php" />
+    <entry file="file://$PROJECT_DIR$/../maps2/Configuration/TCA/Overrides/tt_address.php" />
+    <entry file="file://$PROJECT_DIR$/../maps2/ext_tables.php" />
+    <entry file="file://$PROJECT_DIR$/../maps2/ext_tables.sql" />
+    <entry file="file://$PROJECT_DIR$/../maps2/Configuration/TSconfig/ContentElementWizard.txt" />
+    <entry file="file://$PROJECT_DIR$/../maps2/Configuration/FlexForms/Maps2.xml" />
+    <entry file="file://$PROJECT_DIR$/../maps2/Configuration/TCA/tx_maps2_domain_model_poicollection.php" />
+    <entry file="file://$PROJECT_DIR$/../../PackageStates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-804" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../LocalConfiguration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1247">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../typo3_src-9.5.0/typo3/sysext/fluid_styled_content/Resources/Private/Layouts/Default.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../typo3_src-9.5.0/typo3/sysext/fluid_styled_content/Resources/Private/Templates/Div.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../typo3_src-9.5.0/typo3/sysext/fluid_styled_content/Resources/Private/Partials/Header/All.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Extensions/News/Partials/Category/Items.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/RTE/Mettigels.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Extensions/News/Templates/Index.html" />
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Extensions/fluid_styled_content/Partials/Header/All.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Extensions/fluid_styled_content/Partials/Header/Header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="116" selection-start-line="4" selection-start-column="116" selection-end-line="4" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Extensions/News/Templates/News/List.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Extensions/fluid_styled_content/Layouts/Default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="31" column="66" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Vendor/bootstrap-4.1.3/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="71" column="24" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/TSconfig/BackendLayouts.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Extensions/News/Templates/ViewHelpers/Widget/Paginate/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="60" column="86" selection-start-line="60" selection-start-column="86" selection-end-line="60" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/Modules/lib.footer.t3s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-start-column="1" selection-end-line="23" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../news/Configuration/TypoScript/setup.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../news/Configuration/TypoScript/constants.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/maps2/Configuration/TypoScript/constants.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="75" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/news/Configuration/TypoScript/constants.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/Modules/lib.footerNavigation.t3s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/TSconfig/Page.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="77" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/Modules/lib.tx_news.t3s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="22" column="75" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/news/Configuration/TypoScript/setup.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/constants.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/Modules/100_page.t3s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Public/JavaScripts/default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Extensions/News/Partials/List/Item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/Modules/lib.navigations.t3s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Layouts/Main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Extensions/News/Templates/Category/List.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="56" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/Modules/lib.contentElement.t3s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="91" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Extensions/fluid_styled_content/Templates/MenuSubpages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Vendor/bootstrap-4.1.3/scss/_project.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

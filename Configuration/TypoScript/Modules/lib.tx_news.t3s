@@ -1,0 +1,50 @@
+plugin.tx_news {
+    view {
+        templateRootPaths.100 = EXT:fw_mettigels/Resources/Private/Extensions/News/Templates/
+        partialRootPaths.100 = EXT:fw_mettigels/Resources/Private/Extensions/News/Partials/
+        layoutRootPaths.100 = EXT:fw_mettigels/Resources/Private/Extensions/News/Layouts/
+    }
+    _LOCAL_LANG.default {
+        dateFormat = d.m.Y
+        more-info-link = Weiterlesen
+        author = erstellt von %s
+        paginate_previous = <
+        paginate_next = >
+    }
+    _LOCAL_LANG.de {
+        dateFormat = d.m.Y
+        more-info-link = Weiterlesen
+        author = erstellt von %s
+        paginate_previous = <
+        paginate_next = >
+    }
+
+    settings {
+        startingpoint = {$plugin.tx_fw_mettigels.settings.newsSysfolderPid}
+        displayDummyIfNoMedia = 0
+        list {
+            paginate {
+                itemsPerPage = 10
+            }
+            media {
+                image {
+                    maxWidth = 200
+                    maxHeight = 200
+
+                }
+            }
+        }
+        detail {
+            media {
+                video {
+                    width = 710
+                    height = 474
+                }
+            }
+        }
+        useStdWrap = backPid,actbackPid
+        backPid.data = GP : tx_news_pi1 | actbackPid
+        actbackPid = TEXT
+        actbackPid.data = page:uid
+    }
+}

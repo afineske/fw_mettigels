@@ -1,0 +1,28 @@
+{
+    "name": "finiweb/fw-mettigels",
+    "type": "typo3-cms-extension",
+    "description": "Template f\u00fcr die Mettigels",
+    "authors": [
+        {
+            "name": "Andreas Fineske",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "FiniWeb\\FwMettigels\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FiniWeb\\FwMettigels\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "fw_mettigels": "self.version",
+        "typo3-ter/fw-mettigels": "self.version"
+    }
+}

@@ -1,0 +1,87 @@
+<f:layout name="Main" />
+
+<f:section name="Landingpage">
+
+
+        <f:format.raw>{content100}</f:format.raw>
+
+
+
+    <div class="row">
+        <div id="sidebar" class="col-12 col-sm-4 pt-2">
+            <f:format.raw>{content1}</f:format.raw>
+        </div>
+        <div class="col-12 col-sm-8 pt-5">
+            <f:format.raw>{content0}</f:format.raw>
+        </div>
+    </div>
+</f:section>
+
+<f:section name="TwoColumn">
+    <div class="row">
+        <div id="sidebar" class="col-12 col-sm-4 pt-2">
+            <f:cObject typoscriptObjectPath="lib.subMenu"/>
+            <f:format.raw>{content1}</f:format.raw>
+        </div>
+        <div class="col-12 col-sm-8 pt-5">
+            <f:format.raw>{content0}</f:format.raw>
+        </div>
+
+    </div>
+</f:section>
+<f:section name="ThreeColumns">
+<div class="row">
+    <div class="col-12 col-sm-3">
+        <f:cObject typoscriptObjectPath="lib.subMenu"/>
+        <f:format.raw>{content1}</f:format.raw>
+    </div>
+
+        <div class="col-12 col-sm-8 offset-sm-1">
+            <f:format.raw>{content300}</f:format.raw>
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <f:format.raw>{content302}</f:format.raw>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <f:format.raw>{content303}</f:format.raw>
+                </div>
+            </div>
+        </div>
+
+
+
+</div>
+</f:section>
+<!-- Team View -->
+<f:section name="teamview">
+    <div id="teamview" class="row">
+        <div id="sidebar" class="col-12 col-sm-4">
+            <f:cObject typoscriptObjectPath="lib.subMenu"/>
+            <f:format.raw>{content1}</f:format.raw>
+        </div>
+
+        <div class="col-12 col-sm-8">
+            <f:format.raw>{content105}</f:format.raw>
+            <div id="players" class="row mt-3">
+                <div class="col-12 col-sm-6">
+                    <f:format.raw>{content102}</f:format.raw>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <f:format.raw>{content104}</f:format.raw>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</f:section>
+
+<f:section name="onecolumn">
+    <div class="row">
+        <div class="col-12 col-sm-12">
+            <f:format.raw>{content0}</f:format.raw>
+        </div>
+
+    </div>
+</f:section>

@@ -1,0 +1,11 @@
+lib.contentElement {
+    partialRootPaths {
+        200 = EXT:fw_mettigels/Resources/Private/Extensions/fluid_styled_content/Partials/
+    }
+    layoutRootPaths {
+        200 = EXT:fw_mettigels/Resources/Private/Extensions/fluid_styled_content/Layouts/
+    }
+    templateRootPaths {
+        200 = EXT:fw_mettigels/Resources/Private/Extensions/fluid_styled_content/Templates/
+    }
+}

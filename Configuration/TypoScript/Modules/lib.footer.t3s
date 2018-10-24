@@ -1,0 +1,24 @@
+#lib.footerLeft  = RECORDS
+#lib.footerLeft {
+#    tables = tt_content
+#    source = 566
+#    dontCheckPid = 1
+#}
+#lib.footerCenterLeft = RECORDS
+#lib.footerCenterLeft {
+#    tables = tt_content
+#    source = 565
+#    dontCheckPid = 1
+#}
+#lib.footerCenterRight  = RECORDS
+#lib.footerCenterRight {
+#    tables = tt_content
+#    source = 569
+#    dontCheckPid = 1
+#}
+#lib.footerRight  = RECORDS
+#lib.footerRight {
+#    tables = tt_content
+#    source = 568
+#    dontCheckPid = 1
+#}

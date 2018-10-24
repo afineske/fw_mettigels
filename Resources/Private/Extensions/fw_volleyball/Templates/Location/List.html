@@ -1,0 +1,39 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+<f:section name="main">
+<f:flashMessages />
+<table class="table" >
+	<thead>
+	<tr>
+		<th><f:translate key="tx_fwvolleyball_domain_model_location.name" /></th>
+		<th><f:translate key="tx_fwvolleyball_domain_model_location.street" /></th>
+		<th><f:translate key="tx_fwvolleyball_domain_model_location.postalcode" /></th>
+		<th><f:translate key="tx_fwvolleyball_domain_model_location.city" /></th>
+		<th><f:translate key="tx_fwvolleyball_domain_model_location.note" /></th>
+	</tr>
+	</thead>
+	<f:for each="{locations}" as="location">
+		<tr>
+			<td>
+				<f:link.action pageUid="{settings.singleViewPid}" action="show" arguments="{location: 1,sId:location.id}"><h5>{location.name}</h5></f:link.action>
+				<f:if condition="{location.extraField} != '-'">
+					<f:then>
+						<snall>{location.extraField}</snall>
+					</f:then>
+				</f:if>
+			</td>
+			<td>{location.street}</td>
+			<td>{location.postalCode}</td>
+			<td>{location.city}</td>
+			<td>
+				<f:if condition="{location.note} != '-'">
+				<f:then>
+					<span class="text-success">{location.note}</span>
+				</f:then>
+			</f:if>
+			</td>
+		</tr>
+	</f:for>
+</table>
+</f:section>
+</html>

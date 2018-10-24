@@ -1,0 +1,23 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<div class="upcommingMatches">
+
+    <div class="match text-center">
+        <h2>
+            <span class="{f:if(condition:'{settings.team.id} == {match.team.0.id}', then: 'text-primary', else: '')}">{match.team.0.name}</span> - <span class="{f:if(condition:'{settings.team.id} == {match.team.1.id}', then: 'text-primary', else: '')}">{match.team.1.name}</span>
+        </h2>
+        <span>
+            {match.date} {match.time}
+            <f:if condition="{settings.singleViewPid}">
+                <f:then>
+                    <f:link.action pageUid="{settings.singleViewPid}" controller="Location" action="show" arguments="{location: 1,sId:match.location.id}">
+                        {match.location.name} ({match.location.city})
+                    </f:link.action>
+                </f:then>
+                <f:else>
+                    {match.location.name} ({match.location.city})
+                </f:else>
+            </f:if>
+        </span>
+    </div>
+    <hr class="style2">
+</div>

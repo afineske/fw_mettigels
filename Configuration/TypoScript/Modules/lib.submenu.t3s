@@ -1,0 +1,23 @@
+lib.subMenu = HMENU
+lib.subMenu {
+
+    1 = TMENU
+    1 {
+        wrap = <ul class="nav nav-pills flex-column">|</ul>
+        NO = 1
+        NO {
+            wrapItemAndSub = <li class="nav-item">|</li>
+            ATagParams = class="nav-link"
+        }
+        ACT = 1
+        ACT {
+            ATagParams = class="nav-link active"
+        }
+    }
+
+    special = directory
+    #special.value = 8
+    special.value.data = leveluid:2
+    entryLevel = 3
+    expAll = 1
+}

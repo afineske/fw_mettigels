@@ -1,0 +1,46 @@
+
+<div class="lastResults">
+
+    <div class="match text-center">
+        <h2>
+            <span class="{f:if(condition:'{settings.team.id} == {match.team.0.id}', then: 'text-primary', else: '')}">{match.team.0.name}</span> - <span class="{f:if(condition:'{settings.team.id} == {match.team.1.id}', then: 'text-primary', else: '')}">{match.team.1.name}</span>
+        </h2>
+        <p>
+
+
+            <f:variable name="setFormated"></f:variable>
+            <f:for each="{match.results.sets.set}" as="set">
+
+                <v:iterator.explode content="{set.points}" as="setPoints" glue=":">
+                    <f:if condition="{set.winner}=='TEAM1'">
+                        <f:then>
+                            <f:variable name="tempVar">{setFormated}</f:variable>
+                            <f:variable name="setFormated">{tempVar} <strong>{setPoints.0}</strong>:{setPoints.1}</f:variable>
+
+                        </f:then>
+                        <f:else>
+                            <f:variable name="tempVar">{setFormated}</f:variable>
+                            <f:variable name="setFormated">{tempVar} {setPoints.0}:<strong>{setPoints.1}</strong></f:variable>
+
+                        </f:else>
+                    </f:if>
+                </v:iterator.explode> &nbsp;
+            </f:for>
+            <span class="result" data-container="body" data-toggle="popover" data-placement="bottom" data-content="{setFormated}">
+                <v:iterator.explode content="{match.results.setPoints}" as="points" glue=":">
+                <f:if condition="{match.results.winner}=='1'">
+                    <f:then>
+                        <span style="color:red;font-weight: bolder;">{points.0}</span>:{points.1}
+                    </f:then>
+                    <f:else>
+                        {points.0}:<span style="color:red">{points.1}</span>
+                    </f:else>
+                    :
+                </f:if>
+            </v:iterator.explode>&nbsp;
+            </span>
+        </p>
+
+
+    </div>
+</div>

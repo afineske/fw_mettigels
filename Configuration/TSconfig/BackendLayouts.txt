@@ -1,0 +1,200 @@
+mod.web_layout.BackendLayouts {
+  landingpage {
+    title = Landingpage
+    icon = EXT:fw_mettigels/Resources/Public/Images/BackendLayouts/LandingPage.png
+    config {
+      backend_layout {
+        colCount = 3
+        rowCount = 2
+        rows {
+          1 {
+            columns {
+              1 {
+                name = TOP-News Slider
+                colspan = 3
+                colPos = 100
+              }
+            }
+          }
+          2 {
+            columns {
+              1 {
+                name = Sidebar
+                colPos = 1
+              }
+              2 {
+                name = Main Content
+                colspan = 2
+                colPos = 0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+mod.web_layout.BackendLayouts {
+  teamview {
+    title = Example
+    icon = EXT:fw_mettigels/Resources/Public/Images/BackendLayouts/teamview.png
+    config {
+      backend_layout {
+        colCount = 3
+        rowCount = 2
+        rows {
+        		1 {
+        			columns {
+        				1 {
+        					name = Seitenleiste Links
+        					rowspan = 2
+        					colPos = 1
+        				}
+        				2 {
+        					name = Inhalt oben
+        					colspan = 2
+        					colPos = 105
+        				}
+        			}
+        		}
+        		2 {
+        			columns {
+        				1 {
+        					name = Inhalt Link
+        					colPos = 102
+        				}
+        				2 {
+        					name = Inhalt Rechts
+        					colPos = 104
+        				}
+        			}
+        		}
+        	}
+        }
+      }
+    }
+  }
+}
+mod.web_layout.BackendLayouts {
+  twocolumn {
+    title = Two Column
+    icon = EXT:fw_mettigels/Resources/Public/Images/BackendLayouts/TwoColumn.png
+    config {
+      backend_layout {
+        colCount = 3
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Left Column
+                colPos = 1
+              }
+              2 {
+                name = Main Content
+                colspan = 2
+                colPos = 0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+mod.web_layout.BackendLayouts {
+  onecolumn {
+    title = One Column
+    icon = EXT:fw_mettigels/Resources/Public/Images/BackendLayouts/OneColumn.png
+    config {
+      backend_layout {
+        colCount = 1
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Main Content
+                colPos = 0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+mod.web_layout.BackendLayouts {
+  fourcolumns {
+    title = Four Columns
+    icon = EXT:fw_mettigels/Resources/Public/Images/BackendLayouts/fourColumns.png
+    config {
+      backend_layout {
+        colCount = 4
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Left Column
+                colPos = 201
+              }
+              2 {
+                name = Left Center Column
+                colPos = 202
+              }
+              3 {
+                name = Right Center Column
+                colPos = 203
+              }
+              4 {
+                name = Right Column
+                colPos = 204
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+mod.web_layout.BackendLayouts {
+  threecolumns {
+    title = Three Columns
+    icon = EXT:fw_mettigels/Resources/Public/Images/BackendLayouts/threeColumns.png
+    config {
+          backend_layout {
+            colCount = 3
+            rowCount = 2
+            rows {
+              1 {
+                columns {
+                  1 {
+                    name = left Column
+                    rowspan = 2
+                    colPos = 1
+                  }
+                  2 {
+                    name = Top Column
+                    colspan = 2
+                    colPos = 300
+                  }
+                }
+              }
+              2 {
+                columns {
+                  1 {
+                    name = Main Left
+                    colPos = 302
+                  }
+                  2 {
+                    name = Main Right
+                    colPos = 303
+                  }
+                }
+              }
+            }
+          }
+        }
+  }
+}
